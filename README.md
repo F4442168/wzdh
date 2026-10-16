@@ -35,6 +35,9 @@ const adminPwd = await env.NAV_DB.get("adminPwd")
   "admin888";
   
   这样读取优先级就会变成：
+
 1. ADMIN_PASSWORD Secret变量密码
+
 2. KV 中的 adminPwd
+
 3.以上都没有使用 默认密码： admin888
