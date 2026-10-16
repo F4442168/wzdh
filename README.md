@@ -13,7 +13,7 @@ CF部署Workers网址导航
 6.默认密码：admin888
 
 
-代码会优先读取 KV 密码，只有 KV 中没有保存密码时才使用变量密码，默认一般不需要设置变量密码，如果要设置，变量名称必须是：ADMIN_PASSWORD ，密码可以随便设置
+#代码会优先读取 KV 密码，只有 KV 中没有保存密码时才使用变量密码，默认一般不需要设置变量密码，如果要设置，变量名称必须是：ADMIN_PASSWORD ，密码可以随便设置
 
 要想优先使用变量密码，修改代码，让环境变量优先
 在 Worker 代码中找到类似下面的代码：
@@ -43,9 +43,9 @@ const adminPwd = await env.NAV_DB.get("adminPwd")
 3.以上都没有使用 默认密码： admin888
 
 
-原版自定义背景链接地址：https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop
+#原版自定义背景链接地址：https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop
 
-如忘记密码:
+#如忘记密码:
 
 默认的后台管理密码是 admin888。登录后可自行修改 如忘记密码 登录 Cloudflare 控制面板。
 
