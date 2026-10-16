@@ -41,3 +41,6 @@ const adminPwd = await env.NAV_DB.get("adminPwd")
 2. KV 中的 adminPwd
 
 3.以上都没有使用 默认密码： admin888
+
+
+原版自定义背景链接地址：https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2564&auto=format&fit=crop
